@@ -68,6 +68,6 @@ function mytouchmove(e){
     ctx.moveTo(lastPositionofX, lastPositionofY);
     ctx.lineTo(PositionMouseXt, PositionMouseYt);
     ctx.stroke();
-    lastpositionofX=PositionMouseXt;
-    lastpositionofY=PositionMouseYt;
+    lastPositionofX=PositionMouseXt;
+    lastPositionofY=PositionMouseYt;
 }
